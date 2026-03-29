@@ -1,0 +1,20 @@
+<mxfile compressed="false" pages="1" type="device">
+    <diagram id="242bcf4b-36c5-4430-bf69-544cb1ac64c3" name="mypackage">
+        <mxGraphModel arrows="1" connect="1" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageScale="1" shadow="0" tooltips="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object id="2a767283-0b12-498c-ac3d-bb7d9b3ac949" label="MyClass" link="references/eClassifiers/MyClass/index.html">
+                    <mxCell parent="1" vertex="1">
+                        <mxGeometry as="geometry" height="30.0" width="120.0" x="707.9605282824696" y="337.49171995289646"/>
+                    </mxCell>
+                </object>
+                <object id="9fb0ffea-83ce-4e4d-90fe-9193a1e8600e" label="children" link="references/eClassifiers/MyClass/references/eStructuralFeatures/children/index.html">
+                    <mxCell edge="1" parent="1" source="2a767283-0b12-498c-ac3d-bb7d9b3ac949" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="2a767283-0b12-498c-ac3d-bb7d9b3ac949">
+                        <mxGeometry as="geometry" relative="1"/>
+                    </mxCell>
+                </object>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

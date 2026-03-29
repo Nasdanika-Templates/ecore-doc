@@ -31,16 +31,21 @@ jobs:
           distribution: 'temurin'
       - name: Download Nasdanika CLI
 #        run: wget https://downloads.vlasov.us/nsd-cli.zip
-        run: wget https://github.com/Nasdanika/cli/releases/download/maven-2025.12.0/nsd-cli.zip
+        run: wget https://github.com/Nasdanika/cli/releases/download/maven-2026.2.0/nsd-cli.zip
       - name: Unzip Nasdanika CLI
         run: unzip nsd-cli.zip
       - name: Setup Graphviz
         uses: ts-graphviz/setup-graphviz@v2
-      - name: Generate site
+      - name: Generate ecore doc
         working-directory: nsd-cli
         run: |
           chmod u+x nsd
-          ./nsd drawio ../diagram.drawio html-app -r ../root-action.yml --add-to-root site -r=-1 -F ../page-template.yml ../docs
+          ./nsd model ../My.ecore ecore doc --doc-dir=../doc save ../my.xmi
+          ls ../docs
+      - name: Generate site
+        working-directory: nsd-cli
+        run: |
+          ./nsd model ../root-action.yml labels site -r=-1 -F ../page-template.yml ../docs
           ls ../docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
