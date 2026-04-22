@@ -1,0 +1,82 @@
+<mxfile compressed="false" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram id="76792079-c077-42cc-a063-88b1f826c305" name="ui">
+    <mxGraphModel dx="1568" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Choice" link="references/eClassifiers/Choice/index.html" id="34d2c77b-ec49-4aed-948e-aa51fa850c4b">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="249.99269474934297" y="439.99536112287313" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="UIFeature" link="references/eClassifiers/UIFeature/index.html" id="c0ea5978-f26e-4a31-8180-8efd722dc504">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="322.38598107275214" y="259.36478809368606" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="UIGroup" link="references/eClassifiers/UIGroup/index.html" id="3445240d-8e93-4e39-9639-45d96fd4e0d8">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="480" y="259.36" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="InputType" link="references/eClassifiers/InputType/index.html" id="cfd55a93-6d57-4bf9-b096-8af6c9600727">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="550" y="350" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="29cb34f5-4fb1-4907-a746-a07d7398b2dc" edge="1" parent="1" source="cfd55a93-6d57-4bf9-b096-8af6c9600727" target="cfd55a93-6d57-4bf9-b096-8af6c9600727">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="GroupStyle" link="references/eClassifiers/GroupStyle/index.html" id="23403f85-336f-407d-bc0f-137f4d28771a">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="550" y="395" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8e2b7461-f004-45ec-9d38-bd8c2b18ab07" edge="1" parent="1" source="23403f85-336f-407d-bc0f-137f4d28771a" target="23403f85-336f-407d-bc0f-137f4d28771a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Input" link="references/eClassifiers/Input/index.html" id="04e77436-fbeb-4b46-bf67-8076cf9c7683">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="249.99624601888718" y="350.00444601932315" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9f752c82-07b9-4a5a-a452-616b0dfa94dc" edge="1" parent="1" source="04e77436-fbeb-4b46-bf67-8076cf9c7683" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="c0ea5978-f26e-4a31-8180-8efd722dc504">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="choices" link="references/eClassifiers/Input/references/eStructuralFeatures/choices/index.html" id="656603ca-1b72-4d06-9575-941bd44de9f3">
+          <mxCell edge="1" parent="1" source="04e77436-fbeb-4b46-bf67-8076cf9c7683" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="34d2c77b-ec49-4aed-948e-aa51fa850c4b">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="UIElement" link="references/eClassifiers/UIElement/index.html" id="1b919bd0-8c47-4b82-afd1-9e0c1bd188ea">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="400.00269364788403" y="129.99594339753327" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="c5381f9c-aeba-408f-be76-878d7e81926f" edge="1" parent="1" source="3445240d-8e93-4e39-9639-45d96fd4e0d8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="1b919bd0-8c47-4b82-afd1-9e0c1bd188ea">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="children" link="references/eClassifiers/UIGroup/references/eStructuralFeatures/children/index.html" id="91375368-b05e-4f30-87bd-21d982def921">
+          <mxCell edge="1" parent="1" source="3445240d-8e93-4e39-9639-45d96fd4e0d8" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;edgeStyle=orthogonalEdgeStyle;" target="1b919bd0-8c47-4b82-afd1-9e0c1bd188ea">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="570" y="145" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="eef21f13-887a-437c-abf2-01950cf9cc57" edge="1" parent="1" source="c0ea5978-f26e-4a31-8180-8efd722dc504" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="1b919bd0-8c47-4b82-afd1-9e0c1bd188ea">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Output" link="references/eClassifiers/Output/index.html" id="fb0d3e48-40af-40b1-9777-6ff0462e2aff">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="400.0032933976879" y="350.0010925723555" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="51297dff-b773-41b5-8df0-df851d18a59d" edge="1" parent="1" source="fb0d3e48-40af-40b1-9777-6ff0462e2aff" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="c0ea5978-f26e-4a31-8180-8efd722dc504">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

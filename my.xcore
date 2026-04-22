@@ -1,0 +1,252 @@
+/**
+ * Functional (Logical) User Interface Metamodel
+ * 
+ * A renderer-agnostic model representing the logical intent and data requirements of a UI.
+ * The downstream rendering engine decides how each element is physically rendered
+ * (e.g., HTML, Bootstrap, React).
+ */
+@Ecore(nsURI="https://nasdanika.org/models/ui", nsPrefix="ui")
+@GenModel(
+	modelDirectory="/org.nasdanika.models.ui.model/src-gen",
+	editDirectory="/org.nasdanika.models.ui.edit/src-gen",
+	editorDirectory="/org.nasdanika.models.ui.editor/src-gen",
+	testsDirectory="/org.nasdanika.models.ui.tests/src-gen",
+	modelName="Ui",
+	prefix="Ui",
+	modelPluginID="org.nasdanika.models.ui.model",
+	childCreationExtenders="true",
+	extensibleProviderFactory="true",
+	operationReflection="false",
+	importerID="org.eclipse.emf.importer.xcore",
+	complianceLevel="17.0"
+)
+package org.nasdanika.models.ui
+
+/**
+ * The expected data type for an Input element.
+ * The rendering engine interprets this to choose an appropriate physical widget.
+ */
+enum InputType {
+	/**
+	 * A plain text string value.
+	 */
+	STRING as "String" = 0
+
+	/**
+	 * A whole number (integer) value.
+	 */
+	INTEGER as "Integer" = 1
+
+	/**
+	 * A true/false boolean value (e.g., checkbox).
+	 */
+	BOOLEAN as "Boolean" = 2
+
+	/**
+	 * A date value (e.g., date picker).
+	 */
+	DATE as "Date" = 3
+
+	/**
+	 * A decimal number value.
+	 */
+	DECIMAL as "Decimal" = 4
+
+	/**
+	 * An email address value.
+	 */
+	EMAIL as "Email" = 5
+
+	/**
+	 * A URL/URI value.
+	 */
+	URL as "URL" = 6
+
+	/**
+	 * A telephone number value.
+	 */
+	PHONE as "Phone" = 7
+
+	/**
+	 * A password or sensitive text value (should be masked in the UI).
+	 */
+	PASSWORD as "Password" = 8
+
+	/**
+	 * A date and time value.
+	 */
+	DATETIME as "DateTime" = 9
+}
+
+/**
+ * A logical hint to the rendering engine on how to organize the children
+ * of a UIGroup.
+ */
+enum GroupStyle {
+	/**
+	 * Children are arranged vertically, one below the other (default).
+	 */
+	VERTICAL as "Vertical" = 0
+
+	/**
+	 * Children are arranged horizontally, side by side.
+	 */
+	HORIZONTAL as "Horizontal" = 1
+
+	/**
+	 * Children are arranged in a grid layout.
+	 */
+	GRID as "Grid" = 2
+}
+
+/**
+ * The root abstract base class for all UI elements.
+ * Provides common identity attributes.
+ */
+abstract class UIElement {
+	/**
+	 * A unique identifier for this UI element within its context.
+	 * Used by the rendering engine to reference the element (e.g., HTML id attribute).
+	 */
+	String id
+
+	/**
+	 * A logical, programmatic name for this element (e.g., for data binding or form submission).
+	 * Unlike id, name does not need to be globally unique and may be used as a data key.
+	 */
+	String name
+}
+
+/**
+ * Abstract base class for UI elements that interact with data,
+ * such as inputs and outputs. Extends UIElement with user-facing
+ * descriptive attributes.
+ */
+abstract class UIFeature extends UIElement {
+	/**
+	 * The human-readable label displayed to the user, typically rendered
+	 * next to or above the input/output widget (e.g., an HTML &lt;label&gt; element).
+	 */
+	String label
+
+	/**
+	 * A short descriptive text providing additional context or guidance for the user,
+	 * typically rendered as a tooltip or help text.
+	 */
+	String tooltip
+}
+
+/**
+ * Represents a single selectable option within an Input that has a defined
+ * set of available choices (e.g., an item in a dropdown, radio group, or autocomplete list).
+ */
+class Choice {
+	/**
+	 * The actual data value submitted or stored when this choice is selected.
+	 * This is the value meaningful to the application logic.
+	 */
+	String ^value
+
+	/**
+	 * The human-readable text displayed to the user for this choice.
+	 * If not set, the value may be used as the display text.
+	 */
+	String label
+}
+
+/**
+ * Represents a UI input element that collects data from the user.
+ * It is intentionally agnostic of physical rendering — the downstream
+ * engine decides the widget type (text field, dropdown, date picker, etc.)
+ * based on inputType, choices, and multiplicity attributes.
+ */
+class Input extends UIFeature {
+	/**
+	 * Hint text displayed inside the input widget when it is empty,
+	 * prompting the user with an example or description of the expected value.
+	 */
+	String placeholder
+
+	/**
+	 * The minimum number of values required for this input.
+	 * A value of 0 means the input is optional; 1 or more means it is required.
+	 * Defaults to 1 (required, single value).
+	 */
+	int lowerBound = "1"
+
+	/**
+	 * The maximum number of values accepted for this input.
+	 * A value of 1 means single-select; values greater than 1 or -1 (unbounded)
+	 * indicate that multiple values can be provided (multi-select).
+	 * Defaults to 1 (single value).
+	 */
+	int upperBound = "1"
+
+	/**
+	 * Controls how the choices list is interpreted by the rendering engine:
+	 * - If true (strict), the user MUST select from the provided choices list
+	 *   (e.g., a dropdown or radio buttons with no free-text option).
+	 * - If false (non-strict), the choices are suggestions or autocomplete hints,
+	 *   but the user may also enter a value not in the list (e.g., a combobox).
+	 * Defaults to false.
+	 */
+	boolean strictChoices = "false"
+
+	/**
+	 * The expected data type for this input. Informs the rendering engine which
+	 * physical widget or validation to apply (e.g., a date picker for DATE,
+	 * a checkbox for BOOLEAN, a number spinner for INTEGER).
+	 * Defaults to STRING.
+	 */
+	InputType inputType = "STRING"
+
+	/**
+	 * The list of available choices for this input.
+	 * If empty, the input accepts any free-form value of the declared inputType.
+	 * If populated, the rendering engine should present them as selectable options
+	 * (e.g., dropdown items, radio buttons, or autocomplete suggestions).
+	 */
+	contains Choice[] choices
+}
+
+/**
+ * Represents a UI output element that displays data to the user
+ * in a read-only fashion.
+ */
+class Output extends UIFeature {
+	/**
+	 * The value to be displayed to the user.
+	 * This is typically a pre-formatted string representation of the underlying data.
+	 * The rendering engine may apply additional formatting or styling.
+	 */
+	String displayValue
+}
+
+/**
+ * A structural grouping element that logically organizes other UI elements.
+ * It has no data-interaction of its own but provides a container for layout
+ * and visual grouping (analogous to an HTML fieldset, a Bootstrap row/column, 
+ * or a React fragment with a layout wrapper).
+ */
+class UIGroup extends UIElement {
+	/**
+	 * An optional human-readable label for this group, which may be rendered
+	 * as a group title or legend (e.g., an HTML &lt;legend&gt; inside a &lt;fieldset&gt;).
+	 */
+	String label
+
+	/**
+	 * A logical hint to the rendering engine about the preferred layout direction
+	 * for the children of this group. The rendering engine may honor or override
+	 * this hint based on its own layout capabilities.
+	 * Defaults to VERTICAL.
+	 */
+	GroupStyle groupStyle = "VERTICAL"
+
+	/**
+	 * The contained child UI elements. This is a containment reference,
+	 * meaning child elements are owned by this group. Supports nesting
+	 * of groups to create complex, hierarchical UI structures.
+	 */
+	contains UIElement[] children
+}
