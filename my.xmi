@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.nasdanika.models.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.exec.content="ecore://nasdanika.org/core/exec/content" xmlns:org.nasdanika.models.app="ecore://app.models.nasdanika.org" xmlns:org.nasdanika.models.bootstrap="ecore://bootstrap.models.nasdanika.org" xmlns:org.nasdanika.models.html="ecore://html.models.nasdanika.org" xmlns:org.nasdanika.ncore="ecore://nasdanika.org/core/ncore" uuid="70de17c2-df4f-4c74-b9fc-4d7c0b345cfe" id="f58f434a-932c-4647-afb1-9f25b06e3bc8" text="mypackage" icon="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" location="${base-uri}index.html">
+  <annotations xsi:type="org.nasdanika.ncore:MapProperty" name="semantic-element">
+    <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+      <value xsi:type="org.nasdanika.ncore:String" value="ACED000574002065636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F7267"/>
+    </value>
+    <value xsi:type="org.nasdanika.ncore:MapProperty" name="type">
+      <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740025687474703A2F2F7777772E65636C697073652E6F72672F656D662F323030322F45636F7265" name="ns-uri"/>
+      <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740008455061636B616765" name="name"/>
+    </value>
+  </annotations>
+  <children xsi:type="org.nasdanika.models.app:Action" uuid="9a4dea12-4fe5-457d-8425-11cfd1865ae8" id="4cac4eda-3b92-4d74-a1ef-0b8c80663bab" text="MyClass" icon="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" location="references/eClassifiers/MyClass/index.html">
+    <annotations xsi:type="org.nasdanika.ncore:MapProperty" name="semantic-element">
+      <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+        <value xsi:type="org.nasdanika.ncore:String" value="ACED000574003565636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F72672F65436C6173736966696572732F4D79436C617373"/>
+      </value>
+      <value xsi:type="org.nasdanika.ncore:MapProperty" name="container">
+        <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+          <value xsi:type="org.nasdanika.ncore:String" value="ACED000574002065636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F7267"/>
+        </value>
+        <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000C65436C617373696669657273" name="reference"/>
+      </value>
+      <value xsi:type="org.nasdanika.ncore:MapProperty" name="type">
+        <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740025687474703A2F2F7777772E65636C697073652E6F72672F656D662F323030322F45636F7265" name="ns-uri"/>
+        <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000645436C617373" name="name"/>
+      </value>
+    </annotations>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="cf1d9a4e-7ec8-4470-b688-be33f2541c6d" id="fda06e97-d71e-4412-bde8-28942ac1d9e4" text="Attributes" icon="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif" location="attributes.html">
+      <content xsi:type="org.nasdanika.models.html:Tag" uuid="10b4c777-ce63-41fa-ab33-567e45c5a333">
+        <content xsi:type="org.nasdanika.models.html:Tag" uuid="115f8cf2-be41-4bce-8da5-8cced182a845">
+          <attributes key="id">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="4035a047-3d35-4dad-b4ba-5d1f3a343aaf" content="attributes-table"/>
+          </attributes>
+          <content xsi:type="org.nasdanika.models.html:Tag" uuid="543623e8-e12d-4424-8894-f1a2eaa63c36" name="nsd-ecore-doc-table">
+            <attributes key=":columns">
+              <value xsi:type="org.nasdanika.ncore:List">
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED00057400046E616D65" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="4e7e0bd1-7e4b-47e1-a2e6-ee5e5b338096" content="Name"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000B6465736372697074696F6E" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="231071dc-ee79-44a6-a60f-0f86a96de374" content="Description"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000474797065" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="478a5a6d-b673-450c-8e1a-db11cc81896a" content="Type"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000C6D756C7469706C6963697479" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="322d5ba8-8bca-43c7-9043-db94121ba4ff" content="Multiplicity"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000F6465636C6172696E672D636C617373" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="1600c2dc-2c40-4b6a-84b3-f7934941b623" content="Declaring Class"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000A6368616E676561626C65" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="16966871-2a09-4772-b747-d232e9b98af6" content="Changeable"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000764657269766564" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="916751cf-b2e1-43e7-be27-03211e36975b" content="Derived"/>
+                  </value>
+                </value>
+              </value>
+            </attributes>
+            <attributes key=":items">
+              <value xsi:type="org.nasdanika.ncore:List">
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="name">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="1dec7114-140f-4fc1-a998-7daa24574bba" content="&#xD;&#xA;&lt;b>&#xD;&#xA;&lt;a href=&quot;references/eStructuralFeatures/myAttribute/index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif&quot; class=&quot;nsd-app-label-icon&quot;/>myAttribute&lt;/a>&lt;/b>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="type">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="613c96a2-e9f0-4891-a3d6-e4de32dd5b00" content="&lt;!-- EString--> &#xD;&#xA;&lt;a href=&quot;index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot; class=&quot;nsd-app-label-icon&quot;/>EString&lt;/a>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="multiplicity">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="44d23038-41ef-4d26-a047-c77b7bfbc334" content="0..1"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="declaring-class">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="e351be36-872b-4686-8436-4f2076874eb3" content="&lt;!-- MyClass--> &#xD;&#xA;&lt;a>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot; class=&quot;nsd-app-label-icon&quot;/>MyClass&lt;/a>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="changeable">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="5d64eed6-0e95-4608-ae6b-a55d7eb38116" content="&lt;i class=&quot;fas fa-check&quot;>&lt;/i>"/>
+                  </value>
+                </value>
+              </value>
+            </attributes>
+            <attributes key="config-key">
+              <value xsi:type="org.nasdanika.exec.content:Text" uuid="8aedc704-a129-4102-98c9-109708e4bc63" content="eclass-attributes"/>
+            </attributes>
+            <attributes key="transitive-label">
+              <value xsi:type="org.nasdanika.exec.content:Text" uuid="aa7c571e-1d64-477b-bfd6-396ff876a620" content="Inherited"/>
+            </attributes>
+          </content>
+        </content>
+        <content xsi:type="org.nasdanika.models.html:Script" uuid="e6c7ce94-bbae-459c-ad2f-94363abb18d3">
+          <source xsi:type="org.nasdanika.exec.content:Text" uuid="c61b351b-96b1-452f-960f-84f9a9b4ff1a" content="new Vue({ el: '#attributes-table' });"/>
+        </content>
+      </content>
+      <children xsi:type="org.nasdanika.models.app:Action" uuid="4a797905-21b1-4304-a808-ea916e25e914" id="ffb2cda0-7466-4911-aad9-a257f0ff58a9" text="myAttribute" icon="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif" location="references/eStructuralFeatures/myAttribute/index.html">
+        <annotations xsi:type="org.nasdanika.ncore:MapProperty" name="semantic-element">
+          <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+            <value xsi:type="org.nasdanika.ncore:String" value="ACED000574005565636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F72672F65436C6173736966696572732F4D79436C6173732F655374727563747572616C46656174757265732F6D79417474726962757465"/>
+          </value>
+          <value xsi:type="org.nasdanika.ncore:MapProperty" name="container">
+            <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+              <value xsi:type="org.nasdanika.ncore:String" value="ACED000574003565636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F72672F65436C6173736966696572732F4D79436C617373"/>
+            </value>
+            <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740013655374727563747572616C4665617475726573" name="reference"/>
+          </value>
+          <value xsi:type="org.nasdanika.ncore:MapProperty" name="type">
+            <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740025687474703A2F2F7777772E65636C697073652E6F72672F656D662F323030322F45636F7265" name="ns-uri"/>
+            <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000A45417474726962757465" name="name"/>
+          </value>
+        </annotations>
+        <content xsi:type="org.nasdanika.models.bootstrap:Table" uuid="c44d0ddb-4909-4c3f-aee7-4585b76c9484">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="dd9d2cf5-d1de-43d0-be6a-734de2a99cba" content="width:auto"/>
+          </attributes>
+          <body uuid="11944e68-bd7f-4027-9592-0809ea6b8db8">
+            <rows uuid="4715e8cb-8906-4f17-a0d4-61068b8308f8">
+              <cells uuid="06ba3b17-15b8-4aab-8cd2-8a852c08f327" header="true">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="35c9e4f5-b31a-4f50-b144-379bb9e13eb8" content="Type"/>
+              </cells>
+              <cells uuid="ecd2f7d1-9991-41c6-b0b3-71e351c62357">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="4829e215-09b5-4ca8-93e8-a59c1b7a6237" content="&#xD;&#xA;&lt;a href=&quot;index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot; class=&quot;nsd-app-label-icon&quot;/>EString&lt;/a>"/>
+              </cells>
+            </rows>
+            <rows uuid="f64d1fcc-6cd9-4699-bafb-45517b9a31dc">
+              <cells uuid="08e8f78f-7fce-420a-8487-141b343f11dd" header="true">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="3f2e805e-eafb-4a5a-8c61-7571b3e27bed" content="Multiplicity"/>
+              </cells>
+              <cells uuid="ff75550c-af72-4ee4-8d95-e56140144edf">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="e32c0dd7-6890-4d9d-987e-8e327a2efe9b" content="0..1"/>
+              </cells>
+            </rows>
+          </body>
+        </content>
+        <decorator xsi:type="org.nasdanika.models.app:Link" uuid="cf5aff34-4653-4abb-95db-bcece5112056" id="2ec4f205-7ab4-49b7-bc3f-0d91afa6dc60" icon="far fa-question-circle" location="index.html">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="09749dbf-6304-4352-9d8b-5561cb80c6e5" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+          </attributes>
+        </decorator>
+      </children>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="2d477c0f-abf3-45bc-b841-f2f0f77e3f07" id="8e32315f-ff04-426c-8b4c-80987b6beee8" text="References" icon="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" location="references.html">
+      <content xsi:type="org.nasdanika.models.html:Tag" uuid="2328f772-11ed-4f47-b1ab-24e56f04b372">
+        <content xsi:type="org.nasdanika.models.html:Tag" uuid="ea09cebb-e1d5-4ab6-bc2a-ca745addf75f">
+          <attributes key="id">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="85adf910-685d-48b1-9bcc-5ab53bdfb1f7" content="references-table"/>
+          </attributes>
+          <content xsi:type="org.nasdanika.models.html:Tag" uuid="83c96b30-789e-4744-8ea9-ae052d1976d0" name="nsd-ecore-doc-table">
+            <attributes key=":columns">
+              <value xsi:type="org.nasdanika.ncore:List">
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED00057400046E616D65" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="c6df32e6-4f39-443f-a3ac-19d715be29e8" content="Name"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000B6465736372697074696F6E" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="debeb32a-fdf6-4c5a-b032-dc3421776e92" content="Description"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000474797065" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="9645e938-f563-4025-80c5-93e36e001aba" content="Type"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000C6D756C7469706C6963697479" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="24d8ee6c-f4eb-4f1e-a6bb-ae40d567d846" content="Multiplicity"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000F6465636C6172696E672D636C617373" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="2a2d8ee6-c687-4459-987e-35fd84fec9e4" content="Declaring Class"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000A6368616E676561626C65" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="548ec911-e659-4cf7-b443-d3639c370b6e" content="Changeable"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000764657269766564" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="1813b8b9-f650-4ad5-b609-b3c00467d14d" content="Derived"/>
+                  </value>
+                </value>
+              </value>
+            </attributes>
+            <attributes key=":items">
+              <value xsi:type="org.nasdanika.ncore:List">
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="name">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="09c7a9d3-9504-4351-9b07-603ffd4d01d8" content="&#xD;&#xA;&lt;b>&#xD;&#xA;&lt;a href=&quot;references/eStructuralFeatures/children/index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif&quot; class=&quot;nsd-app-label-icon&quot;/>children&lt;/a>&lt;/b>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="type">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="205ba32f-5a95-487e-8c2d-6fcf1429ce3f" content="&lt;!-- MyClass--> &#xD;&#xA;&lt;a>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot; class=&quot;nsd-app-label-icon&quot;/>MyClass&lt;/a>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="multiplicity">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="7e341b4d-f0c6-4c66-8e3f-dccc7641b42b" content="&lt;B>0..*&lt;/B>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="declaring-class">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="da33727b-06d0-4371-9ccd-27a880586104" content="&lt;!-- MyClass--> &#xD;&#xA;&lt;a>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot; class=&quot;nsd-app-label-icon&quot;/>MyClass&lt;/a>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="changeable">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="2379cfa3-02e5-4afc-856d-3f9ee0691f77" content="&lt;i class=&quot;fas fa-check&quot;>&lt;/i>"/>
+                  </value>
+                </value>
+              </value>
+            </attributes>
+            <attributes key="config-key">
+              <value xsi:type="org.nasdanika.exec.content:Text" uuid="22daa714-13da-467c-9326-709a4c7254e6" content="eclass-references"/>
+            </attributes>
+            <attributes key="transitive-label">
+              <value xsi:type="org.nasdanika.exec.content:Text" uuid="e4b3f141-4285-44c4-aef6-52ae5f7f3dc6" content="Inherited"/>
+            </attributes>
+          </content>
+        </content>
+        <content xsi:type="org.nasdanika.models.html:Script" uuid="bda99f26-9d17-4c38-8233-0a7d097e288d">
+          <source xsi:type="org.nasdanika.exec.content:Text" uuid="f0ca65fd-f07e-432f-991c-92cf824b91a8" content="new Vue({ el: '#references-table' });"/>
+        </content>
+      </content>
+      <children xsi:type="org.nasdanika.models.app:Action" uuid="2347cfeb-90fb-4fcc-908d-8a8a08cc2ca5" id="835ef5ed-248d-4410-8bbc-91edc20cead2" text="children" icon="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" location="references/eStructuralFeatures/children/index.html">
+        <annotations xsi:type="org.nasdanika.ncore:MapProperty" name="semantic-element">
+          <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+            <value xsi:type="org.nasdanika.ncore:String" value="ACED000574005265636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F72672F65436C6173736966696572732F4D79436C6173732F655374727563747572616C46656174757265732F6368696C6472656E"/>
+          </value>
+          <value xsi:type="org.nasdanika.ncore:MapProperty" name="container">
+            <value xsi:type="org.nasdanika.ncore:ListProperty" name="identifiers">
+              <value xsi:type="org.nasdanika.ncore:String" value="ACED000574003565636F72653A2F2F6D796F6E746F6C6F67792E6E617364616E696B612E6F72672F65436C6173736966696572732F4D79436C617373"/>
+            </value>
+            <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740013655374727563747572616C4665617475726573" name="reference"/>
+          </value>
+          <value xsi:type="org.nasdanika.ncore:MapProperty" name="type">
+            <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED0005740025687474703A2F2F7777772E65636C697073652E6F72672F656D662F323030322F45636F7265" name="ns-uri"/>
+            <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000A455265666572656E6365" name="name"/>
+          </value>
+        </annotations>
+        <content xsi:type="org.nasdanika.models.bootstrap:Table" uuid="a227cf5e-14bb-4471-a943-0ce7b527fa56">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="e7089de5-c52f-4b53-8e15-8eee8c8f390a" content="width:auto"/>
+          </attributes>
+          <body uuid="dbeb81c6-e29f-4a9e-89fa-5bafb6b16bd2">
+            <rows uuid="9e31ddea-7c3d-4aab-8b0f-ac71f92c3c3e">
+              <cells uuid="560baf04-dad9-4122-ad78-34f315178d97" header="true">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="765b2df4-639e-417e-b611-3041c735a72e" content="Type"/>
+              </cells>
+              <cells uuid="444ac20f-df1c-477b-9e46-dc6939ab401b">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="06da9572-b726-4b70-9d5d-6f42dc8d5b83" content="&#xD;&#xA;&lt;a href=&quot;../../../index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot; class=&quot;nsd-app-label-icon&quot;/>MyClass&lt;/a>"/>
+              </cells>
+            </rows>
+            <rows uuid="f1affa1b-65ea-422e-8a78-7ab8fd2b5b5b">
+              <cells uuid="19daa122-bc0b-4f94-a03c-fea705b93573" header="true">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="23a13abe-fe98-43d0-bf14-353b571e2021" content="Multiplicity"/>
+              </cells>
+              <cells uuid="fbeb5de5-33d8-4453-8fee-12ceab9c2bba">
+                <content xsi:type="org.nasdanika.exec.content:Text" uuid="92b154f3-ac75-4314-91ad-257ccb196563" content="&lt;B>0..*&lt;/B>"/>
+              </cells>
+            </rows>
+          </body>
+        </content>
+        <decorator xsi:type="org.nasdanika.models.app:Link" uuid="6cd830bf-574f-4377-a8cd-b01d4d619349" id="e447df53-5e4a-4ea9-b754-231703284729" icon="far fa-question-circle" location="index.html">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="4459886a-0739-4024-83cd-91ab673a9958" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+          </attributes>
+        </decorator>
+      </children>
+    </children>
+    <decorator xsi:type="org.nasdanika.models.app:Link" uuid="74150a06-786b-4871-8d2d-14faa184c1c3" id="a988cfee-9bf1-4dd7-a3f0-09ff74adaead" icon="far fa-question-circle" location="index.html">
+      <attributes key="style">
+        <value xsi:type="org.nasdanika.exec.content:Text" uuid="e3752923-6820-4382-90d9-791a146f40d3" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+      </attributes>
+    </decorator>
+    <sections uuid="360ec43a-5234-4fd6-b378-628fc914bfbc" id="a117a411-8f44-49f4-b30c-a81e63b226d0" text="Diagram" icon="fas fa-project-diagram" location="diagram.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="7bae9950-3ebd-4eec-a0fc-19b81fc5d159" content="&lt;img src=&quot;data:image/png;base64, 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&quot; usemap=&quot;#plantuml_map_2b79d2aa-9536-4d86-a958-f1dd2c1d8792&quot;/>&#xD;&#xA;&lt;map id=&quot;plantuml_map_2b79d2aa-9536-4d86-a958-f1dd2c1d8792&quot; name=&quot;plantuml_map_2b79d2aa-9536-4d86-a958-f1dd2c1d8792&quot;>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id1&quot; href=&quot;index.html&quot; title=&quot;index.html&quot; alt=&quot;&quot; coords=&quot;96,41,142,59&quot;/>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id2&quot; href=&quot;references/eStructuralFeatures/myAttribute/index.html&quot; title=&quot;references/eStructuralFeatures/myAttribute/index.html&quot; alt=&quot;&quot; coords=&quot;13,41,142,59&quot;/>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id3&quot; href=&quot;references/eStructuralFeatures/children/index.html&quot; title=&quot;references/eStructuralFeatures/children/index.html&quot; alt=&quot;&quot; coords=&quot;148,23,234,56&quot;/>&#xA;&lt;/map>&#xA;"/>
+    </sections>
+    <navigation xsi:type="org.nasdanika.models.app:Action" uuid="292e7bf7-6866-4b0a-959e-e1c099017b0e" id="324354dd-7f76-45e3-8e26-42cbbfe1172d" text="Graphs" icon="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png">
+      <children xsi:type="org.nasdanika.models.app:Action" uuid="e28868e1-a101-4a5f-b090-995ce9636bdc" id="6b25fcc0-b052-49eb-8aa8-98b80812126e" text="Default Graph" location="default-graph.html">
+        <content xsi:type="org.nasdanika.exec.content:Text" uuid="f929232f-6b67-4650-8d43-a11dc01ca104" content="&lt;div id=&quot;graph-container-1&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-1&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;legend&quot;:{},&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&quot;id&quot;:&quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&quot;name&quot;:&quot;EString&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;index.html&quot;},&quot;x&quot;:612.9872349677503,&quot;y&quot;:675.1602060689964,&quot;category&quot;:0},{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;&quot;},&quot;x&quot;:295.0886038955563,&quot;y&quot;:655.9847546927134,&quot;category&quot;:1}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;none&quot;,&quot;links&quot;:[{&quot;source&quot;:1,&quot;target&quot;:0}],&quot;categories&quot;:[{&quot;name&quot;:&quot;ecore&quot;},{&quot;name&quot;:&quot;mypackage&quot;}],&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+        <decorator xsi:type="org.nasdanika.models.app:Link" uuid="da1f8636-d873-4e3f-a95c-0f051d6369df" id="e955dbee-b917-4032-abab-a62e2fe381f1" icon="far fa-question-circle" tooltip="A fixed force-layout graph of this classifier and related classifiers showing relationships between them">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="42613358-443a-47c3-9277-b65b3e6a698a" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+          </attributes>
+          <modal uuid="deb725f6-1f95-4c86-a65a-9321a0c05c87">
+            <body uuid="2289d0c0-9d98-4dbf-aded-0c9c77093178">
+              <content xsi:type="org.nasdanika.exec.content:Text" uuid="ae2e30f9-8ed4-4191-983c-f3197a437646" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange.&#xA;"/>
+            </body>
+          </modal>
+        </decorator>
+      </children>
+      <children xsi:type="org.nasdanika.models.app:Action" uuid="6be1cb76-4059-4e9f-8ba0-deb8853965ef" id="0725669b-549d-4f41-9218-7d81d6f19fb5" text="Circular Graph" location="circular-layout-graph.html">
+        <content xsi:type="org.nasdanika.exec.content:Text" uuid="103172c2-57be-4362-965c-769137aaeeeb" content="&lt;div id=&quot;graph-container-2&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-2&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;legend&quot;:{},&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&quot;id&quot;:&quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&quot;name&quot;:&quot;EString&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;index.html&quot;},&quot;x&quot;:565.0695298161421,&quot;y&quot;:410.905987946641,&quot;category&quot;:0},{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;&quot;},&quot;x&quot;:568.8365061245257,&quot;y&quot;:728.0310258152163,&quot;category&quot;:1}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;circular&quot;,&quot;links&quot;:[{&quot;source&quot;:1,&quot;target&quot;:0}],&quot;categories&quot;:[{&quot;name&quot;:&quot;ecore&quot;},{&quot;name&quot;:&quot;mypackage&quot;}],&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0.3},&quot;circular&quot;:{&quot;rotateLabel&quot;:true}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+        <decorator xsi:type="org.nasdanika.models.app:Link" uuid="6c36919e-0a55-456b-8a49-5026eabb3f19" id="e8636084-e94d-42e1-ae38-9d7305e23518" icon="far fa-question-circle" tooltip="A circular layout graph of this classifier and related classifiers showing relationships between them">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="7484accb-9b0b-4fba-8b42-305887f1c5e6" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+          </attributes>
+          <modal uuid="5cfe35b5-5b94-4bed-8fd4-ba27e19d70ed">
+            <body uuid="d3c604e1-1b06-4d1d-9c28-d2cec35dd08c">
+              <content xsi:type="org.nasdanika.exec.content:Text" uuid="6fa6b1e8-dcd9-4523-9e97-175ee60d1751" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange.&#xA;"/>
+            </body>
+          </modal>
+        </decorator>
+      </children>
+      <children xsi:type="org.nasdanika.models.app:Action" uuid="f2de5bf7-b5de-45bc-9769-234e2a483498" id="6c12a59d-8e32-40da-9bc8-ea8890dbb703" text="Force Graph" location="force-layout-graph.html">
+        <content xsi:type="org.nasdanika.exec.content:Text" uuid="067af703-2768-402f-b771-30914ea32d11" content="&lt;div id=&quot;graph-container-3&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-3&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;legend&quot;:{},&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&quot;id&quot;:&quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&quot;name&quot;:&quot;EString&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;index.html&quot;},&quot;x&quot;:627.2594265186889,&quot;y&quot;:545.3503787114955,&quot;category&quot;:0},{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;&quot;},&quot;x&quot;:324.605425247786,&quot;y&quot;:447.6312057431914,&quot;category&quot;:1}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;force&quot;,&quot;links&quot;:[{&quot;source&quot;:1,&quot;target&quot;:0}],&quot;categories&quot;:[{&quot;name&quot;:&quot;ecore&quot;},{&quot;name&quot;:&quot;mypackage&quot;}],&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0},&quot;force&quot;:{&quot;repulsion&quot;:200,&quot;gravity&quot;:0.1,&quot;edgeLength&quot;:200}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+        <decorator xsi:type="org.nasdanika.models.app:Link" uuid="3faf23aa-8102-4a1d-84a1-ead4bb1c05a6" id="d4486e0d-ce8c-4155-96d5-eaf51ef66a12" icon="far fa-question-circle" tooltip="A live force-layout graph of this classifier and related classifiers showing relationships between them">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="82a1964f-0ce2-489d-9bbb-23beec8620df" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+          </attributes>
+          <modal uuid="1282ecf6-ec8a-447c-afe0-617e82ca1db4">
+            <body uuid="b7ce0cb6-21dd-486b-a306-188aeb924802">
+              <content xsi:type="org.nasdanika.exec.content:Text" uuid="1776ce15-de7e-4d5f-8d30-72d48360cab8" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange, nodes will not stay in place once released.&#xA;"/>
+            </body>
+          </modal>
+        </decorator>
+      </children>
+      <children xsi:type="org.nasdanika.models.app:Action" uuid="0426ccc5-ed4d-4c76-a3d3-7972fdb45eeb" id="fed7c532-a2c1-49ac-ac08-a757aac44752" text="Force Graph 3D" location="force-layout-graph-3d.html">
+        <content xsi:type="org.nasdanika.exec.content:Text" uuid="6125093c-d769-440c-92ae-16402d4536c6" content="&lt;div id=&quot;force-graph-4&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;module&quot;>&#xA;&#x9;import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';&#xA;&#x9;import SpriteText from &quot;https://cdn.jsdelivr.net/npm/three-spritetext@1.10.0/dist/three-spritetext.mjs&quot;;&#xA;&#xA;&#x9;        new ForceGraph3D(&#xD;&#xA;                document.getElementById('force-graph-4'), &#xD;&#xA;                {&#xD;&#xA;                        extraRenderers: [&#xD;&#xA;                                new CSS2DRenderer()&#xD;&#xA;                        ]&#xD;&#xA;                })&#xD;&#xA;                .graphData({&quot;nodes&quot;: [&#xA;          {&#xA;            &quot;image&quot;: &quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&#xA;            &quot;name&quot;: &quot;EString&quot;,&#xA;            &quot;id&quot;: &quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&#xA;            &quot;value&quot;: [{&quot;externalLink&quot;: &quot;index.html&quot;}],&#xA;            &quot;group&quot;: &quot;http://www.eclipse.org/emf/2002/Ecore&quot;&#xA;          },&#xA;          {&#xA;            &quot;image&quot;: &quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&#xA;            &quot;size&quot;: 3,&#xA;            &quot;name&quot;: &quot;MyClass&quot;,&#xA;            &quot;id&quot;: &quot;MyClass@ecore://myontology.nasdanika.org&quot;,&#xA;            &quot;value&quot;: [{&quot;externalLink&quot;: &quot;&quot;}],&#xA;            &quot;group&quot;: &quot;ecore://myontology.nasdanika.org&quot;&#xA;          }&#xA;        ]})&#xD;&#xA;                .nodeAutoColorBy('group')&#xD;&#xA;                .nodeVal('size')&#xD;&#xA;                .linkDirectionalArrowLength(2.5)&#xD;&#xA;                .linkDirectionalArrowRelPos(1)&#xD;&#xA;                .linkCurvature('curvature')&#xD;&#xA;                .linkCurveRotation('rotation')&#xD;&#xA;                .linkAutoColorBy('group')&#xD;&#xA;                .onNodeClick((node, event) => {&#xA;       if (node.lastClick) {&#xA;        if (event.timeStamp - node.lastClick &lt; 500) {&#xA;&#x9;&#x9;&#x9;if (Array.isArray(node.value) &amp;&amp; node.value.length > 0) {&#xA;&#x9;&#x9;&#x9;&#x9;if (node.value[0].link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (node.value[0].externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;delete node.lastClick;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;&#x9;}&#xA;&#x9;} else {&#xA;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;}&#xA;   })&#xD;&#xA;                .nodeThreeObject(node => {&#xA;        const nodeEl = document.createElement('div');&#xA;        nodeEl.textContent = node.name;&#xA;        nodeEl.style.color = node.color;&#xA;        nodeEl.className = 'node-label';&#xA;        return new CSS2DObject(nodeEl);&#xA;      })&#xD;&#xA;                .nodeThreeObjectExtend(true)&#xD;&#xA;                .linkThreeObject(link => {&#xA;         // extend link with text sprite&#xA;         if (link.name &amp;&amp; !link.curvature) {&#xA;           const sprite = new SpriteText(link.name);&#xA;           sprite.color = 'lightgrey';&#xA;           sprite.textHeight = 1.5;&#xA;           return sprite;&#xA;         }&#xA;       })&#xD;&#xA;                .linkPositionUpdate((sprite, { start, end }) => {&#xA;&#x9;&#x9;if (sprite) {&#xA;          const pos = Object.assign(...['x', 'y', 'z'].map(c => ({&#xA;            [c]: start[c] + (end[c] - start[c]) / 1.3&#xA;          })));&#xA;&#xA;          // Position sprite&#xA;          Object.assign(sprite.position, pos);&#xA;        }&#xA;       })&#xD;&#xA;                .linkThreeObjectExtend(true)&#xD;&#xA;                .onNodeDragEnd(node => {&#xA;          node.fx = node.x;&#xA;          node.fy = node.y;&#xA;          node.fz = node.z;&#xA;        })&#xA;&lt;/script>&#xA;"/>
+        <decorator xsi:type="org.nasdanika.models.app:Link" uuid="ea1dcb0e-b897-442d-820b-53809d2f1907" id="c5512f15-49eb-46b7-b764-c88434d03984" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing detailed relationships between them">
+          <attributes key="style">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="5c1bd4d8-a1ed-46bc-9719-80806b9e95b3" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+          </attributes>
+          <modal uuid="38aabbc8-da1a-482a-9856-b77cd53b3968">
+            <body uuid="51e13e46-78ad-48bb-ac20-54b7248c88d1">
+              <content xsi:type="org.nasdanika.exec.content:Text" uuid="9dd82abb-5302-4f51-9e1d-9dc5a6b303a1" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Left click - rotate.&#xA;Mouse wheel - zoom.&#xA;Right click - pan.&#xA;Drag to rearrange.&#xA;"/>
+            </body>
+          </modal>
+        </decorator>
+      </children>
+      <decorator uuid="8ac2a7a2-972d-4de8-8713-711ea4f1575c" id="485aff3f-8e23-4074-bfae-447d1f2c311e" icon="far fa-question-circle" tooltip="Graphs of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="e7ca9385-801e-4ae3-8a32-99fcb6db8a3c" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+      </decorator>
+    </navigation>
+    <navigation xsi:type="org.nasdanika.models.app:Action" uuid="e1397e6d-4573-4f92-94a7-626bc6138f64" id="6f7a1953-dc25-4326-a6dd-bfa938e1f95f" text="Load specification" location="load-specification.html">
+      <content xsi:type="org.nasdanika.models.html:Tag" uuid="e3a42d79-c24e-46d9-9593-11819272a6a8">
+        <content xsi:type="org.nasdanika.models.html:Tag" uuid="13f63d17-cd7b-4b49-94af-2989c1c86c1e">
+          <attributes key="id">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="041af932-9339-4239-9db0-9fdca1e176b4" content="load-specification-table"/>
+          </attributes>
+          <content xsi:type="org.nasdanika.models.html:Tag" uuid="499d6578-9800-4585-a16f-96878973e6e8" name="nsd-table">
+            <attributes key=":columns">
+              <value xsi:type="org.nasdanika.ncore:List">
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED00057400036B6579" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="83da38d0-8454-4cee-a5bb-fd624246c919" content="Key"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000474797065" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="ab2a3321-39a0-49f4-a8cb-bb1cef0f1eec" content="Type"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000C6D756C7469706C6963697479" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="9ac15983-3d67-4115-8b93-b50ff5372de2" content="Multiplicity"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000B686F6D6F67656E656F7573" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="e1af23ab-fb45-4401-bac0-a71653a476ae" content="Homogeneous"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED00057400127374726963742D636F6E7461696E6D656E74" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="31ec4c27-57e0-4ed3-8c37-230213867dc0" content="Strict Containment"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="sortable"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED00057400096578636C7573697665" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="e9ada8c5-f1be-43f2-90ef-6b5a1ee9f241" content="Exclusive With"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                  <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000B6465736372697074696F6E" name="key"/>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="cb8a4c60-a4d6-482a-a83d-2d617a08776b" content="Description"/>
+                  </value>
+                </value>
+              </value>
+            </attributes>
+            <attributes key=":items">
+              <value xsi:type="org.nasdanika.ncore:List">
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="key">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="84b5ab6d-32c2-4b5b-9339-1276df89212d" content="children"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="type">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="67ad19ba-345d-442c-bff2-6d0d43ccc6b8" content="&lt;!-- MyClass--> &#xD;&#xA;&lt;a href=&quot;../../../index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot; class=&quot;nsd-app-label-icon&quot;/>MyClass&lt;/a>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="multiplicity">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="2a84de3d-d435-4a5a-bc66-c62c41fbaed4" content="&lt;B>0..*&lt;/B>"/>
+                  </value>
+                </value>
+                <value xsi:type="org.nasdanika.ncore:Map">
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="key">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="c1ecac8c-7bb6-4c51-bf07-4a2a46f9beb7" content="myAttribute"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="type">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="72ad061a-31e9-4942-8244-8fbd370078bb" content="&lt;!-- EString--> &#xD;&#xA;&lt;a href=&quot;index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot; class=&quot;nsd-app-label-icon&quot;/>EString&lt;/a>"/>
+                  </value>
+                  <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="multiplicity">
+                    <value xsi:type="org.nasdanika.exec.content:Text" uuid="7854257e-bf86-45b5-a124-32e2d0eb28be" content="0..1"/>
+                  </value>
+                </value>
+              </value>
+            </attributes>
+            <attributes key="config-key">
+              <value xsi:type="org.nasdanika.exec.content:Text" uuid="a6cc9ec4-85ea-4336-a76b-ecb49e06f56a" content="113122375-MyClass-load-specification"/>
+            </attributes>
+          </content>
+        </content>
+        <content xsi:type="org.nasdanika.models.html:Script" uuid="827b8067-94a0-4291-a9bb-2a1ec77b9e20">
+          <source xsi:type="org.nasdanika.exec.content:Text" uuid="16a582b9-a4fe-47d5-9540-0dcc9d5ae55a" content="new Vue({ el: '#load-specification-table' });"/>
+        </content>
+      </content>
+    </navigation>
+  </children>
+  <decorator xsi:type="org.nasdanika.models.app:Link" uuid="0c2f794b-4e29-4842-9340-964c77c3b53a" id="4b9a28dc-6612-4c2a-ad25-776b46dd21c9" icon="far fa-question-circle" location="index.html">
+    <attributes key="style">
+      <value xsi:type="org.nasdanika.exec.content:Text" uuid="9e4376a2-8b48-43f6-92b9-05cfe573fc84" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+    </attributes>
+  </decorator>
+  <navigation xsi:type="org.nasdanika.models.app:Action" uuid="7a7e46fc-28ad-4a4e-84c1-b8a66eb3f2ce" id="9498511d-f6fd-453d-9bb0-704f994bda31" text="Classifiers" location="classifiers.html">
+    <content xsi:type="org.nasdanika.models.html:Tag" uuid="fba3496b-0359-4311-b91f-5c97ba59a057">
+      <content xsi:type="org.nasdanika.models.html:Tag" uuid="03b4c1d3-424f-4dad-a1d6-0fc8f23d8a66">
+        <attributes key="id">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="a8fc832b-cf81-47a4-9648-37f28a455859" content="classifiers-table"/>
+        </attributes>
+        <content xsi:type="org.nasdanika.models.html:Tag" uuid="bac3657c-74c7-41c7-9f05-e55d7f60007b" name="nsd-ecore-doc-table">
+          <attributes key=":columns">
+            <value xsi:type="org.nasdanika.ncore:List">
+              <value xsi:type="org.nasdanika.ncore:Map">
+                <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED00057400046E616D65" name="key"/>
+                <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                  <value xsi:type="org.nasdanika.exec.content:Text" uuid="c6b70336-a51c-402f-ba64-8b38c09a4235" content="Name"/>
+                </value>
+              </value>
+              <value xsi:type="org.nasdanika.ncore:Map">
+                <value xsi:type="org.nasdanika.ncore:BooleanProperty" value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787001" name="visible"/>
+                <value xsi:type="org.nasdanika.ncore:StringProperty" value="ACED000574000B6465736372697074696F6E" name="key"/>
+                <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="label">
+                  <value xsi:type="org.nasdanika.exec.content:Text" uuid="04b509f5-60db-4f43-b1ad-47e1673497c4" content="Description"/>
+                </value>
+              </value>
+            </value>
+          </attributes>
+          <attributes key=":items">
+            <value xsi:type="org.nasdanika.ncore:List">
+              <value xsi:type="org.nasdanika.ncore:Map">
+                <value xsi:type="org.nasdanika.ncore:EObjectProperty" name="name">
+                  <value xsi:type="org.nasdanika.exec.content:Text" uuid="1b9d6d26-b6e7-4822-8363-905115292a65" content="&#xD;&#xA;&lt;a href=&quot;references/eClassifiers/MyClass/index.html&quot;>&#xD;&#xA;  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot; class=&quot;nsd-app-label-icon&quot;/>MyClass&lt;/a>"/>
+                </value>
+              </value>
+            </value>
+          </attributes>
+          <attributes key="config-key">
+            <value xsi:type="org.nasdanika.exec.content:Text" uuid="531777fd-35ed-4fd0-8372-9f6f82e21dd6" content="epackage-classifiers"/>
+          </attributes>
+        </content>
+      </content>
+      <content xsi:type="org.nasdanika.models.html:Script" uuid="b4290616-0158-4147-a868-ba8fdf9504c9">
+        <source xsi:type="org.nasdanika.exec.content:Text" uuid="3f8a1460-d4e4-4aa2-9e5b-985f8874e47d" content="new Vue({ el: '#classifiers-table' });"/>
+      </content>
+    </content>
+  </navigation>
+  <navigation xsi:type="org.nasdanika.models.app:Action" uuid="08619d2d-5de7-4a08-af0d-1ba116a864a1" id="cc8f3827-151d-4fae-84f8-bedc30454836" text="Diagram" icon="fas fa-project-diagram" location="diagram.html">
+    <content xsi:type="org.nasdanika.exec.content:Text" uuid="83fe5a4d-2951-46f0-9626-debbde212a61" content="&lt;img src=&quot;data:image/png;base64, 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&quot; usemap=&quot;#plantuml_map_8a71761e-ddeb-403d-999e-cee9affcb777&quot;/>&#xD;&#xA;&lt;map id=&quot;plantuml_map_8a71761e-ddeb-403d-999e-cee9affcb777&quot; name=&quot;plantuml_map_8a71761e-ddeb-403d-999e-cee9affcb777&quot;>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id1&quot; href=&quot;index.html&quot; title=&quot;index.html&quot; alt=&quot;&quot; coords=&quot;96,41,142,59&quot;/>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id2&quot; href=&quot;references/eClassifiers/MyClass/references/eStructuralFeatures/myAttribute/index.html&quot; title=&quot;references/eClassifiers/MyClass/references/eStructuralFeatures/myAttribute/index.html&quot; alt=&quot;&quot; coords=&quot;13,41,142,59&quot;/>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id3&quot; href=&quot;references/eClassifiers/MyClass/references/eStructuralFeatures/children/index.html&quot; title=&quot;references/eClassifiers/MyClass/references/eStructuralFeatures/children/index.html&quot; alt=&quot;&quot; coords=&quot;148,23,234,56&quot;/>&#xA;&lt;area shape=&quot;rect&quot; id=&quot;id4&quot; href=&quot;references/eClassifiers/MyClass/index.html&quot; title=&quot;references/eClassifiers/MyClass/index.html&quot; alt=&quot;&quot; coords=&quot;7,7,148,72&quot;/>&#xA;&lt;/map>&#xA;"/>
+    <decorator xsi:type="org.nasdanika.models.app:Link" uuid="cb4646f0-7f4c-4df7-8c92-ad0b94a9872b" id="2c66f22b-acde-4288-a016-ba886f097682" icon="far fa-question-circle" tooltip="A class diagram showing package classifiers and relationships between them">
+      <attributes key="style">
+        <value xsi:type="org.nasdanika.exec.content:Text" uuid="4e75e69b-4ad9-41a7-8a55-05c5f2c64e54" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+      </attributes>
+      <modal uuid="8b157e24-8286-489a-94f2-8518463fb3ac">
+        <body uuid="2f3ea5e4-d899-4546-b13b-c6b24e458b7f">
+          <content xsi:type="org.nasdanika.exec.content:Text" uuid="2116dfab-6c46-4d43-b18d-da27c2987720" content="Hover mouse over diagram elements to display tooltips. Click on diagram elements to navigate go documentation"/>
+        </body>
+      </modal>
+    </decorator>
+  </navigation>
+  <navigation xsi:type="org.nasdanika.models.app:Action" uuid="eb5d91bf-d70c-4dc3-a11c-d7fddd76dfc1" id="914fbdc0-b215-4f01-9caa-7e4bdd81aafd" text="Graphs" icon="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png">
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="b49f746d-aea1-4603-a819-a467a080f53f" id="444a40f3-24c1-48cc-9be1-f5d615a873d1" text="Default Graph" location="default-graph.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="f9819a06-14b5-4e05-bc7b-04f89d33fc68" content="&lt;div id=&quot;graph-container-5&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-5&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;references/eClassifiers/MyClass/index.html&quot;},&quot;x&quot;:894.1463012616763,&quot;y&quot;:304.9086225740988}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;none&quot;,&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="7287a2d5-3dbd-4502-968b-1a2890eeb16e" id="afab217c-22b2-4261-8fe4-da918c87772e" icon="far fa-question-circle" tooltip="A fixed force-layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="dd7d88af-f88a-439f-8f82-192ea025c5f5" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="7ef5dbeb-0685-4318-93d7-d2828b2506b1">
+          <body uuid="d063d5a1-50b3-4695-adb6-71430ab60e2a">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="8a4ed4e8-2dd3-4a7b-b879-9fd0faec5586" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="3c1ce350-f5cd-48b7-9988-963ca05c100d" id="60a96728-9afa-468b-aca1-1a2eaed92416" text="Circular Graph" location="circular-layout-graph.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="d12dbd8f-15ba-49c4-92fc-608345465192" content="&lt;div id=&quot;graph-container-6&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-6&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;references/eClassifiers/MyClass/index.html&quot;},&quot;x&quot;:757.4553819780613,&quot;y&quot;:721.7249711925905}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;circular&quot;,&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0.3},&quot;circular&quot;:{&quot;rotateLabel&quot;:true}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="e5a397b7-cc46-4664-aff0-c9ec9264ae79" id="39691506-778a-48cb-be0d-c5c188b028d4" icon="far fa-question-circle" tooltip="A circular layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="843e1a11-8138-4620-91fe-50a0b03b74d0" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="c702695e-f178-46ee-b55f-6f6e3e502511">
+          <body uuid="74ff5409-72ba-48c9-808b-a1e1a2b40258">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="f8e2733b-6d49-4a5d-9288-699c1449385d" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="041c6c62-cdc7-47fd-8248-9411cf91c910" id="1bf391e0-536c-40ff-bfde-5865333c3e77" text="Force Graph" location="force-layout-graph.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="4b00caac-7ce6-4d04-aaae-cd64b0a9702c" content="&lt;div id=&quot;graph-container-7&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-7&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;references/eClassifiers/MyClass/index.html&quot;},&quot;x&quot;:39.16183221674674,&quot;y&quot;:411.6018152933572}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;force&quot;,&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0},&quot;force&quot;:{&quot;repulsion&quot;:200,&quot;gravity&quot;:0.1,&quot;edgeLength&quot;:200}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="3d06f7e0-b892-423f-abac-d452b0756fd5" id="49ed66bc-e64c-465e-8acd-5f05439b7795" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="a038f6b9-14ca-4c81-81b8-66d156376e5c" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="46ac6c5f-35be-4527-b248-b36c71acb76e">
+          <body uuid="30399b35-03af-4856-b9bc-ddbee4e87584">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="58d3340d-29e2-490f-b730-199df6bad6db" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange, nodes will not stay in place once released.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="d3044633-3009-418d-b820-33ceb5f58e33" id="a4a655b2-faab-4b59-a154-4c7f2348256e" text="Force Graph 3D" location="force-layout-graph-3d.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="a8e6cd47-ba34-4395-8b9f-ceda882e4665" content="&lt;div id=&quot;force-graph-8&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;module&quot;>&#xA;&#x9;import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';&#xA;&#x9;import SpriteText from &quot;https://cdn.jsdelivr.net/npm/three-spritetext@1.10.0/dist/three-spritetext.mjs&quot;;&#xA;&#xA;&#x9;        new ForceGraph3D(&#xD;&#xA;                document.getElementById('force-graph-8'), &#xD;&#xA;                {&#xD;&#xA;                        extraRenderers: [&#xD;&#xA;                                new CSS2DRenderer()&#xD;&#xA;                        ]&#xD;&#xA;                })&#xD;&#xA;                .graphData({&quot;nodes&quot;: [{&#xA;          &quot;name&quot;: &quot;MyClass&quot;,&#xA;          &quot;id&quot;: &quot;MyClass@ecore://myontology.nasdanika.org&quot;,&#xA;          &quot;value&quot;: [{&quot;externalLink&quot;: &quot;references/eClassifiers/MyClass/index.html&quot;}]&#xA;        }]})&#xD;&#xA;                .nodeAutoColorBy('group')&#xD;&#xA;                .nodeVal('size')&#xD;&#xA;                .linkDirectionalArrowLength(2.5)&#xD;&#xA;                .linkDirectionalArrowRelPos(1)&#xD;&#xA;                .linkCurvature('curvature')&#xD;&#xA;                .linkCurveRotation('rotation')&#xD;&#xA;                .onNodeClick((node, event) => {&#xA;       if (node.lastClick) {&#xA;        if (event.timeStamp - node.lastClick &lt; 500) {&#xA;&#x9;&#x9;&#x9;if (Array.isArray(node.value) &amp;&amp; node.value.length > 0) {&#xA;&#x9;&#x9;&#x9;&#x9;if (node.value[0].link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (node.value[0].externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;delete node.lastClick;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;&#x9;}&#xA;&#x9;} else {&#xA;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;}&#xA;   })&#xD;&#xA;                .nodeThreeObject(node => {&#xA;        const nodeEl = document.createElement('div');&#xA;        nodeEl.textContent = node.name;&#xA;        nodeEl.style.color = node.color;&#xA;        nodeEl.className = 'node-label';&#xA;        return new CSS2DObject(nodeEl);&#xA;      })&#xD;&#xA;                .nodeThreeObjectExtend(true)&#xD;&#xA;                .onNodeDragEnd(node => {&#xA;          node.fx = node.x;&#xA;          node.fy = node.y;&#xA;          node.fz = node.z;&#xA;        })&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="0bbd34f1-7411-4915-b1cb-5fb8ea063472" id="777fbdc2-e9a7-4986-96d3-374dc2028bd7" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="f50b3608-ca0c-4064-a53a-09072c2c2248" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="73187c55-0d15-48c7-8788-60ea6efe457c">
+          <body uuid="cfb11755-b952-486a-8f79-6ddc74d12933">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="6a015841-84d0-4dcd-a836-3790d2c7c908" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Left click - rotate.&#xA;Mouse wheel - zoom.&#xA;Right click - pan.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="424e6a05-b3bf-4384-8eef-f98c0fb8ab6b" id="738829d5-d933-43a3-b49a-946b8b84c6a6" text="Force Graph 3D Detailed" location="force-layout-graph-3d-detailed.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="082252ce-0ee6-4b56-844c-e82d569844e8" content="&lt;div id=&quot;force-graph-9&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;module&quot;>&#xA;&#x9;import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';&#xA;&#x9;import SpriteText from &quot;https://cdn.jsdelivr.net/npm/three-spritetext@1.10.0/dist/three-spritetext.mjs&quot;;&#xA;&#xA;&#x9;        new ForceGraph3D(&#xD;&#xA;                document.getElementById('force-graph-9'), &#xD;&#xA;                {&#xD;&#xA;                        extraRenderers: [&#xD;&#xA;                                new CSS2DRenderer()&#xD;&#xA;                        ]&#xD;&#xA;                })&#xD;&#xA;                .graphData({&quot;nodes&quot;: [{&#xA;          &quot;image&quot;: &quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&#xA;          &quot;size&quot;: 3,&#xA;          &quot;name&quot;: &quot;MyClass&quot;,&#xA;          &quot;id&quot;: &quot;MyClass@ecore://myontology.nasdanika.org&quot;,&#xA;          &quot;value&quot;: [{&quot;externalLink&quot;: &quot;references/eClassifiers/MyClass/index.html&quot;}],&#xA;          &quot;group&quot;: &quot;ecore://myontology.nasdanika.org&quot;&#xA;        }]})&#xD;&#xA;                .nodeAutoColorBy('group')&#xD;&#xA;                .nodeVal('size')&#xD;&#xA;                .linkDirectionalArrowLength(2.5)&#xD;&#xA;                .linkDirectionalArrowRelPos(1)&#xD;&#xA;                .linkCurvature('curvature')&#xD;&#xA;                .linkCurveRotation('rotation')&#xD;&#xA;                .linkAutoColorBy('group')&#xD;&#xA;                .onNodeClick((node, event) => {&#xA;       if (node.lastClick) {&#xA;        if (event.timeStamp - node.lastClick &lt; 500) {&#xA;&#x9;&#x9;&#x9;if (Array.isArray(node.value) &amp;&amp; node.value.length > 0) {&#xA;&#x9;&#x9;&#x9;&#x9;if (node.value[0].link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (node.value[0].externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;delete node.lastClick;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;&#x9;}&#xA;&#x9;} else {&#xA;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;}&#xA;   })&#xD;&#xA;                .nodeThreeObject(node => {&#xA;        const nodeEl = document.createElement('div');&#xA;        nodeEl.textContent = node.name;&#xA;        nodeEl.style.color = node.color;&#xA;        nodeEl.className = 'node-label';&#xA;        return new CSS2DObject(nodeEl);&#xA;      })&#xD;&#xA;                .nodeThreeObjectExtend(true)&#xD;&#xA;                .linkThreeObject(link => {&#xA;         // extend link with text sprite&#xA;         if (link.name &amp;&amp; !link.curvature) {&#xA;           const sprite = new SpriteText(link.name);&#xA;           sprite.color = 'lightgrey';&#xA;           sprite.textHeight = 1.5;&#xA;           return sprite;&#xA;         }&#xA;       })&#xD;&#xA;                .linkPositionUpdate((sprite, { start, end }) => {&#xA;&#x9;&#x9;if (sprite) {&#xA;          const pos = Object.assign(...['x', 'y', 'z'].map(c => ({&#xA;            [c]: start[c] + (end[c] - start[c]) / 1.3&#xA;          })));&#xA;&#xA;          // Position sprite&#xA;          Object.assign(sprite.position, pos);&#xA;        }&#xA;       })&#xD;&#xA;                .linkThreeObjectExtend(true)&#xD;&#xA;                .onNodeDragEnd(node => {&#xA;          node.fx = node.x;&#xA;          node.fy = node.y;&#xA;          node.fz = node.z;&#xA;        })&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="61d49cb2-279e-4595-a163-ae4d82bce1f9" id="e71f23a4-a4b5-40e6-af0b-fe99d37f9f03" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing detailed relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="eb7cf896-e59e-4765-a38d-354a41a6770c" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="ca6602d6-6b01-42f9-955b-09f7e9c3a6df">
+          <body uuid="833494db-4fac-4ef8-8357-5b8919d875de">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="664b1ee8-2b60-47d8-8eab-36515db4e5e9" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Left click - rotate.&#xA;Mouse wheel - zoom.&#xA;Right click - pan.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Label" uuid="3d23558f-ee4b-446b-91f5-eb50876f8694" id="60d41fa5-facf-4ca1-824f-69c14075bc9f" tooltip="With dependencies and sub-packages"/>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="19a1d80b-cf32-4288-aa6d-c72aed21431e" id="c23a6f1c-0431-49f3-9566-5c90e7054cbc" text="Default Graph" location="default-graph-with-dependencies-and-subpackages.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="b6239fcd-9702-40b5-a07d-1c1df1f30ded" content="&lt;div id=&quot;graph-container-10&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-10&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;legend&quot;:{},&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&quot;id&quot;:&quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&quot;name&quot;:&quot;EString&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;index.html&quot;},&quot;x&quot;:286.28725967019267,&quot;y&quot;:241.4357090151713,&quot;category&quot;:0},{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;references/eClassifiers/MyClass/index.html&quot;},&quot;x&quot;:295.1861010726685,&quot;y&quot;:554.875738687405,&quot;category&quot;:1}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;none&quot;,&quot;links&quot;:[{&quot;source&quot;:1,&quot;target&quot;:0}],&quot;categories&quot;:[{&quot;name&quot;:&quot;ecore&quot;},{&quot;name&quot;:&quot;mypackage&quot;}],&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="74aa39dc-474b-4037-8342-2e64d0a5f453" id="eeccf2cc-ddad-477d-bbde-e03feeeac1a7" icon="far fa-question-circle" tooltip="A fixed force-layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="13d769e6-d64b-48d8-a16a-05367c0e93f7" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="ef799b59-0c52-4367-a612-cebbc0ca6e4f">
+          <body uuid="41330503-a6fc-47f5-947c-92506ca99cb6">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="2a9dfc20-d46f-4e25-a7a3-62e8b0a5df95" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="49f56753-a563-4066-b0dc-9531e051e104" id="d1e41221-b812-4008-80f5-4e8af99d38c0" text="Circular Graph" location="circular-layout-graph-with-dependencies-and-subpackages.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="00cbeacf-7966-4b0d-b095-5f32fbb92fd3" content="&lt;div id=&quot;graph-container-11&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-11&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;legend&quot;:{},&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&quot;id&quot;:&quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&quot;name&quot;:&quot;EString&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;index.html&quot;},&quot;x&quot;:627.2981830972736,&quot;y&quot;:465.6810380164396,&quot;category&quot;:0},{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;references/eClassifiers/MyClass/index.html&quot;},&quot;x&quot;:737.6363283972395,&quot;y&quot;:170.70632227715117,&quot;category&quot;:1}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;circular&quot;,&quot;links&quot;:[{&quot;source&quot;:1,&quot;target&quot;:0}],&quot;categories&quot;:[{&quot;name&quot;:&quot;ecore&quot;},{&quot;name&quot;:&quot;mypackage&quot;}],&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0.3},&quot;circular&quot;:{&quot;rotateLabel&quot;:true}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="7e40e7d4-cc5b-4cb0-ab4b-21735c155a93" id="e7356c77-9d72-4eb3-af4a-cb02b738a744" icon="far fa-question-circle" tooltip="A circular layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="b1882c91-bfdf-4559-9ec3-df5423013dfa" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="eb3b320c-a10a-4c29-8ae7-bf02d744d1e8">
+          <body uuid="c40914b2-3277-4084-b41c-d134e9aec426">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="2ea3ab1f-1114-4a2a-9244-78a268c87ca0" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="ef90d7f6-55ee-4a02-9e14-1076bb80a140" id="67f8ccbc-c64c-491e-949e-bc14ac8d1521" text="Force Graph" location="force-layout-graph-with-dependencies-and-subpackages.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="cea4ecf2-9807-49a8-aaee-494ca0f8210e" content="&lt;div id=&quot;graph-container-12&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;&#x9;$(document).ready(function() {&#xA;&#x9;&#x9;var dom = document.getElementById(&quot;graph-container-12&quot;);&#xA;&#x9;&#x9;var myChart = echarts.init(dom, null, {&#xA;&#x9;&#x9;&#x9;render: &quot;canvas&quot;,&#xA;&#x9;&#x9;&#x9;useDirtyRect: false&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;var option = {&quot;legend&quot;:{},&quot;series&quot;:[{&quot;type&quot;:&quot;graph&quot;,&quot;emphasis&quot;:{&quot;focus&quot;:&quot;adjacency&quot;},&quot;data&quot;:[{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&quot;id&quot;:&quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&quot;name&quot;:&quot;EString&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;index.html&quot;},&quot;x&quot;:953.3808598184125,&quot;y&quot;:301.9502665282707,&quot;category&quot;:0},{&quot;symbol&quot;:&quot;image://https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&quot;id&quot;:&quot;MyClass@ecore://myontology.nasdanika.org&quot;,&quot;name&quot;:&quot;MyClass&quot;,&quot;value&quot;:{&quot;externalLink&quot;:&quot;references/eClassifiers/MyClass/index.html&quot;},&quot;x&quot;:884.9287945458304,&quot;y&quot;:608.6360212345016,&quot;category&quot;:1}],&quot;symbolSize&quot;:20,&quot;roam&quot;:true,&quot;layout&quot;:&quot;force&quot;,&quot;links&quot;:[{&quot;source&quot;:1,&quot;target&quot;:0}],&quot;categories&quot;:[{&quot;name&quot;:&quot;ecore&quot;},{&quot;name&quot;:&quot;mypackage&quot;}],&quot;draggable&quot;:true,&quot;label&quot;:{&quot;show&quot;:true,&quot;position&quot;:&quot;right&quot;},&quot;lineStyle&quot;:{&quot;color&quot;:&quot;source&quot;,&quot;curveness&quot;:0},&quot;force&quot;:{&quot;repulsion&quot;:200,&quot;gravity&quot;:0.1,&quot;edgeLength&quot;:200}}]};&#xA;&#x9;&#x9;option.tooltip = {};&#xA;&#x9;&#x9;option.series[0].tooltip = {&#xA;&#x9;&#x9;&#x9;formatter: function(arg) {&#xA;&#x9;&#x9;&#x9;&#x9;return arg.value ? arg.value.description : null;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;};&#xA;&#x9;&#x9;myChart.setOption(option);&#xA;&#x9;&#x9;myChart.on(&quot;dblclick&quot;, function(params) {&#xA;&#x9;&#x9;&#x9;if (params.value) {&#xA;&#x9;&#x9;&#x9;&#x9;if (params.value.link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (params.value.externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(params.value.externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;});&#xA;&#x9;&#x9;window.addEventListener(&quot;resize&quot;, myChart.resize);&#xA;&#x9;});&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="2f2549ef-2779-43f8-a6e3-0d2e7fb8dd3b" id="e8338d9d-49a2-49ab-b9f3-ad66da764d9c" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="4bb11ec9-1570-41f1-8953-a0c1a8daacdb" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="9a047dcd-9665-4fa1-82cd-3d3d6eb4d7e6">
+          <body uuid="9b8c0048-9b8d-4c92-a7e5-fc2cee523907">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="445cdd2a-1ff6-4621-a163-d87fe15c421f" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Drag to rearrange, nodes will not stay in place once released.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="1560c316-e946-4562-b6a9-d1bced8f9667" id="8c3f0e70-e422-4799-8fe5-dbee68f084be" text="Force Graph 3D" location="force-layout-graph-3d-with-dependencies-and-subpackages.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="11211136-8444-4d65-8c07-0911d6631bce" content="&lt;div id=&quot;force-graph13&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;module&quot;>&#xA;&#x9;import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';&#xA;&#x9;import SpriteText from &quot;https://cdn.jsdelivr.net/npm/three-spritetext@1.10.0/dist/three-spritetext.mjs&quot;;&#xA;&#xA;&#x9;        new ForceGraph3D(&#xD;&#xA;                document.getElementById('force-graph13'), &#xD;&#xA;                {&#xD;&#xA;                        extraRenderers: [&#xD;&#xA;                                new CSS2DRenderer()&#xD;&#xA;                        ]&#xD;&#xA;                })&#xD;&#xA;                .graphData({&#xA;          &quot;nodes&quot;: [&#xA;            {&#xA;              &quot;name&quot;: &quot;EString&quot;,&#xA;              &quot;id&quot;: &quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&#xA;              &quot;value&quot;: [{&quot;externalLink&quot;: &quot;index.html&quot;}],&#xA;              &quot;group&quot;: &quot;ecore&quot;&#xA;            },&#xA;            {&#xA;              &quot;name&quot;: &quot;MyClass&quot;,&#xA;              &quot;id&quot;: &quot;MyClass@ecore://myontology.nasdanika.org&quot;,&#xA;              &quot;value&quot;: [{&quot;externalLink&quot;: &quot;references/eClassifiers/MyClass/index.html&quot;}],&#xA;              &quot;group&quot;: &quot;mypackage&quot;&#xA;            }&#xA;          ],&#xA;          &quot;links&quot;: [{&#xA;            &quot;rotation&quot;: 0,&#xA;            &quot;source&quot;: &quot;MyClass@ecore://myontology.nasdanika.org&quot;,&#xA;            &quot;target&quot;: &quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&#xA;            &quot;curvature&quot;: 0&#xA;          }]&#xA;        })&#xD;&#xA;                .nodeAutoColorBy('group')&#xD;&#xA;                .nodeVal('size')&#xD;&#xA;                .linkDirectionalArrowLength(2.5)&#xD;&#xA;                .linkDirectionalArrowRelPos(1)&#xD;&#xA;                .linkCurvature('curvature')&#xD;&#xA;                .linkCurveRotation('rotation')&#xD;&#xA;                .onNodeClick((node, event) => {&#xA;       if (node.lastClick) {&#xA;        if (event.timeStamp - node.lastClick &lt; 500) {&#xA;&#x9;&#x9;&#x9;if (Array.isArray(node.value) &amp;&amp; node.value.length > 0) {&#xA;&#x9;&#x9;&#x9;&#x9;if (node.value[0].link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (node.value[0].externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;delete node.lastClick;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;&#x9;}&#xA;&#x9;} else {&#xA;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;}&#xA;   })&#xD;&#xA;                .nodeThreeObject(node => {&#xA;        const nodeEl = document.createElement('div');&#xA;        nodeEl.textContent = node.name;&#xA;        nodeEl.style.color = node.color;&#xA;        nodeEl.className = 'node-label';&#xA;        return new CSS2DObject(nodeEl);&#xA;      })&#xD;&#xA;                .nodeThreeObjectExtend(true)&#xD;&#xA;                .onNodeDragEnd(node => {&#xA;          node.fx = node.x;&#xA;          node.fy = node.y;&#xA;          node.fz = node.z;&#xA;        })&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="52aa0e57-957b-4fd1-8106-792b7736d68c" id="915538d1-333d-48f5-a1de-ba472ad0e0b1" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="33346511-d35a-4e03-95de-39e48a416db0" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="6fe9d83b-b41d-489c-a946-7da099926f33">
+          <body uuid="39077875-3b88-4059-9ee6-e81a058f66bd">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="ba59f9a9-865d-4b02-998e-37b0b753f7f9" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Left click - rotate.&#xA;Mouse wheel - zoom.&#xA;Right click - pan.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <children xsi:type="org.nasdanika.models.app:Action" uuid="c6d6ab4d-cc85-4e3c-ab8e-1b16362acd73" id="a2744875-cede-4824-a25b-a662c358b856" text="Force Graph 3D Detailed" location="force-layout-graph-3d-with-dependencies-and-subpackages-detailed.html">
+      <content xsi:type="org.nasdanika.exec.content:Text" uuid="304885eb-6dc7-48e8-96ea-e5c257d11063" content="&lt;div id=&quot;force-graph-14&quot; class=&quot;row&quot; style=&quot;height:70vh;width:100%&quot;>&#xA;&lt;/div>&#xA;&lt;script type=&quot;module&quot;>&#xA;&#x9;import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';&#xA;&#x9;import SpriteText from &quot;https://cdn.jsdelivr.net/npm/three-spritetext@1.10.0/dist/three-spritetext.mjs&quot;;&#xA;&#xA;&#x9;        new ForceGraph3D(&#xD;&#xA;                document.getElementById('force-graph-14'), &#xD;&#xA;                {&#xD;&#xA;                        extraRenderers: [&#xD;&#xA;                                new CSS2DRenderer()&#xD;&#xA;                        ]&#xD;&#xA;                })&#xD;&#xA;                .graphData({&quot;nodes&quot;: [&#xA;          {&#xA;            &quot;image&quot;: &quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EDataType.gif&quot;,&#xA;            &quot;name&quot;: &quot;EString&quot;,&#xA;            &quot;id&quot;: &quot;EString@http://www.eclipse.org/emf/2002/Ecore&quot;,&#xA;            &quot;value&quot;: [{&quot;externalLink&quot;: &quot;index.html&quot;}],&#xA;            &quot;group&quot;: &quot;http://www.eclipse.org/emf/2002/Ecore&quot;&#xA;          },&#xA;          {&#xA;            &quot;image&quot;: &quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif&quot;,&#xA;            &quot;size&quot;: 3,&#xA;            &quot;name&quot;: &quot;MyClass&quot;,&#xA;            &quot;id&quot;: &quot;MyClass@ecore://myontology.nasdanika.org&quot;,&#xA;            &quot;value&quot;: [{&quot;externalLink&quot;: &quot;references/eClassifiers/MyClass/index.html&quot;}],&#xA;            &quot;group&quot;: &quot;ecore://myontology.nasdanika.org&quot;&#xA;          }&#xA;        ]})&#xD;&#xA;                .nodeAutoColorBy('group')&#xD;&#xA;                .nodeVal('size')&#xD;&#xA;                .linkDirectionalArrowLength(2.5)&#xD;&#xA;                .linkDirectionalArrowRelPos(1)&#xD;&#xA;                .linkCurvature('curvature')&#xD;&#xA;                .linkCurveRotation('rotation')&#xD;&#xA;                .linkAutoColorBy('group')&#xD;&#xA;                .onNodeClick((node, event) => {&#xA;       if (node.lastClick) {&#xA;        if (event.timeStamp - node.lastClick &lt; 500) {&#xA;&#x9;&#x9;&#x9;if (Array.isArray(node.value) &amp;&amp; node.value.length > 0) {&#xA;&#x9;&#x9;&#x9;&#x9;if (node.value[0].link) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].link, &quot;_self&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;} else if (node.value[0].externalLink) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;window.open(node.value[0].externalLink);&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;delete node.lastClick;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;&#x9;}&#xA;&#x9;} else {&#xA;&#x9;&#x9;node.lastClick = event.timeStamp;&#xA;&#x9;}&#xA;   })&#xD;&#xA;                .nodeThreeObject(node => {&#xA;        const nodeEl = document.createElement('div');&#xA;        nodeEl.textContent = node.name;&#xA;        nodeEl.style.color = node.color;&#xA;        nodeEl.className = 'node-label';&#xA;        return new CSS2DObject(nodeEl);&#xA;      })&#xD;&#xA;                .nodeThreeObjectExtend(true)&#xD;&#xA;                .linkThreeObject(link => {&#xA;         // extend link with text sprite&#xA;         if (link.name &amp;&amp; !link.curvature) {&#xA;           const sprite = new SpriteText(link.name);&#xA;           sprite.color = 'lightgrey';&#xA;           sprite.textHeight = 1.5;&#xA;           return sprite;&#xA;         }&#xA;       })&#xD;&#xA;                .linkPositionUpdate((sprite, { start, end }) => {&#xA;&#x9;&#x9;if (sprite) {&#xA;          const pos = Object.assign(...['x', 'y', 'z'].map(c => ({&#xA;            [c]: start[c] + (end[c] - start[c]) / 1.3&#xA;          })));&#xA;&#xA;          // Position sprite&#xA;          Object.assign(sprite.position, pos);&#xA;        }&#xA;       })&#xD;&#xA;                .linkThreeObjectExtend(true)&#xD;&#xA;                .onNodeDragEnd(node => {&#xA;          node.fx = node.x;&#xA;          node.fy = node.y;&#xA;          node.fz = node.z;&#xA;        })&#xA;&lt;/script>&#xA;"/>
+      <decorator xsi:type="org.nasdanika.models.app:Link" uuid="8155c6fd-8b49-4734-89b3-b3dbd05d2653" id="e50f28c4-7ad9-410e-9e41-af6a73c05889" icon="far fa-question-circle" tooltip="A live force-layout graph of package classifiers showing detailed relationships between them">
+        <attributes key="style">
+          <value xsi:type="org.nasdanika.exec.content:Text" uuid="792ed418-542a-4b39-8472-ca63514c32b2" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+        </attributes>
+        <modal uuid="f42cb96c-dba5-4f65-9dcd-9d7baf6e9a23">
+          <body uuid="1b0d7c89-a58e-44f5-833d-9c91a95cc297">
+            <content xsi:type="org.nasdanika.exec.content:Text" uuid="364ad326-eea3-45de-b586-b0b65bc37c94" content="Hover mouse over nodes elements to display tooltips.&#xA;Double-click on nodes to navigate go documentation.&#xA;Left click - rotate.&#xA;Mouse wheel - zoom.&#xA;Right click - pan.&#xA;Drag to rearrange.&#xA;"/>
+          </body>
+        </modal>
+      </decorator>
+    </children>
+    <decorator uuid="a8cb5de4-3110-4a7a-a7cc-65a4711f055b" id="a89861ab-0491-4f12-b77a-72788d9c8148" icon="far fa-question-circle" tooltip="Graphs of package classifiers showing relationships between them">
+      <attributes key="style">
+        <value xsi:type="org.nasdanika.exec.content:Text" uuid="17fef85e-1dee-4ad0-894f-069813592a0c" content="vertical-align:super;font-size:x-small;margin-left:0.2em"/>
+      </attributes>
+    </decorator>
+  </navigation>
+</org.nasdanika.models.app:Action>

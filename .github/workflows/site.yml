@@ -1,4 +1,4 @@
-name: Generate HTML Site from a Drawio diagram with Nasdanika CLI
+name: Generate Ecore documentation HTML Site with Nasdanika CLI
 
 on:
   push:
