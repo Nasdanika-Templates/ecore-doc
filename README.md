@@ -21,8 +21,8 @@ model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.x
 
 mounting to other sites,
 
-* Documentation: https://nasdanika-templates.github.io/ecore-doc/ecore/index.html
-* Generated diagram file: https://nasdanika-templates.github.io/ecore-doc/ecore/my-ecore.drawio
+* Documentation: https://nasdanika-templates.github.io/ecore-doc/index.html
+* Generated diagram file: https://nasdanika-templates.github.io/ecore-doc/my.drawio
 
 
 
@@ -31,16 +31,13 @@ TODO...
 * Manual generation -> Pages
 * Action generation
 
-## Xcore
-
-## PlantUML Class Diagrams
-
-## XML Schemas
 
 ## SQL Metadata
 
-Generation of SQL metadata documentation is not part of this repository.
-It can be done by generating an ecore model from SQL metadata and then a documentation model using [sql/metadata/sql-to-ecore/ecore/doc/save](https://docs.nasdanika.org/nsd-cli/nsd/sql/metadata/sql-to-ecore/ecore/doc/save/index.html) command pipeline and then generating and publishing a documentation site.
+Generation of SQL metadata documentation can be done by:
+
+* Generating an ecore model from SQL metadata and then a documentation model using [sql/metadata/sql-to-ecore/ecore/doc/save](https://docs.nasdanika.org/nsd-cli/nsd/sql/metadata/sql-to-ecore/ecore/doc/save/index.html) command pipeline
+* Generating and publishing a documentation site
 
 ## Upgrade to code generation
 

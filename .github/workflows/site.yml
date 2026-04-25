@@ -39,12 +39,12 @@ jobs:
         working-directory: nsd-cli
         run: |
           chmod u+x nsd
-          ./nsd model ../My.ecore ecore doc --diagram=my-ecore.drawio --doc-dir=../doc/ecore save ../my.xmi
+          ./nsd model ../My.ecore ecore doc --diagram=my.drawio --doc-dir=../doc save ../my.xmi
       - name: Generate Ecore site
         working-directory: nsd-cli
         run: |
-          ./nsd model ../root-action.yml labels site -r=-1 -F ../page-template.yml ../docs/ecore
-          cp my-ecore.drawio ../docs/ecore
+          ./nsd model ../root-action.yml labels site -r=-1 -F ../page-template.yml ../docs
+          cp my.drawio ../docs
           ls ../docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
