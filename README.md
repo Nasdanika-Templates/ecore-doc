@@ -1,44 +1,47 @@
 # Ecore Documentation
 
-This is a template repository for generating ecore documentation from multiple sources - ecore, xcore, plantuml, xsd.
+This is a template repository for generating ecore documentation from ecore metamodels.
 Documentation can be generated manually using [Nasdanika CLI](https://docs.nasdanika.org/nsd-cli/index.html) and then published to GitHub pages if desired.
 It can also be generated using GitHub actions calling Nasdanika CLI. 
-This template uses the second approach and generates documentation for several supported sources as explained below.
-You can choose one of them and edit the [.github/workflows/site.yml](.github/workflows/site.yml) to generate documentation just for the type you need
-and publish to the root of the pages.
 
-The generator creates and publishes Draw.io diagrams.
-You can edit it and include into the site. 
+To use the first approach set up [GitHub Pages source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to "Deploy from a branch", select a branch and then "docs" folder.
+
+To use [publish with a GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) set the source to "GitHub Actions".
+
+The generator creates `my.drawio` Draw.io diagram and publishes it to the root of the site.
+You can download it, edit it and include into the site. 
 All of this can be done in the browser if you don't want to clone the repository to your local environment. 
 To generate and commit doc stubs you will have to either clone the repository to you local environment or use [GitHub Codespaces](https://github.com/features/codespaces).
 
-
 ## Manual generation
 
+Once you install Nasdanika CLI the first step isto generate the web site ([HTML Application](https://html-app.models.nasdanika.org/index.html)) model with [model/ecore/doc/save](https://docs.nasdanika.org/nsd-cli/nsd/model/ecore/doc/save/index.html) command pipeline:
+
 ```
-model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
+nsd model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
 ```
 
+Remove `--diagram=my.drawio` if you've already generated a diagram file before and manually adjusted it. 
+You may re-generate a diagram file if there are changes in the source file - added or deleted classifiers.
+
+`--doc-stubs` option works with `--doc-dir`` option and tells the command to generate empty markdown files for model elements.
+You can then write documentation file-by-file, possibly collaborating with others.
+
+Then generate a web site from the XMI file using [model/labels/site](https://docs.nasdanika.org/nsd-cli/nsd/model/labels/site/index.html) command pipeline:
+
+```
+nsd model root-action.yml labels site -r=-1 -F page-template.yml docs
+```
+
+You can also mount it to a larger site.
 
 ## Action generation
 
-```
-model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
-```
-
-
-mounting to other sites,
+GitHub actions generate a documentation site, a diagram, and a doc stubs zip:
 
 * Documentation: https://nasdanika-templates.github.io/ecore-doc/index.html
 * Generated diagram file: https://nasdanika-templates.github.io/ecore-doc/my.drawio
-
-
-
-TODO...
-
-* Manual generation -> Pages
-* Action generation
-
+* Doc stubs zip: https://nasdanika-templates.github.io/ecore-doc/doc-stubs.zip - unzip to ``doc`` folder.
 
 ## SQL Metadata
 
