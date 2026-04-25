@@ -21,8 +21,8 @@ model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.x
 
 mounting to other sites,
 
-* Documentation: https://nasdanika-templates.github.io/ecore-doc/index.html
-* Generated diagram file: https://nasdanika-templates.github.io/ecore-doc/my-ecore.drawio
+* Documentation: https://nasdanika-templates.github.io/ecore-doc/ecore/index.html
+* Generated diagram file: https://nasdanika-templates.github.io/ecore-doc/ecore/my-ecore.drawio
 
 
 
