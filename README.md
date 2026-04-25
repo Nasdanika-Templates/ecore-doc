@@ -41,7 +41,7 @@ GitHub actions generate a documentation site, a diagram, and a doc stubs zip:
 
 * Documentation: https://nasdanika-templates.github.io/ecore-doc/index.html
 * Generated diagram file: https://nasdanika-templates.github.io/ecore-doc/my.drawio
-* Doc stubs zip: https://nasdanika-templates.github.io/ecore-doc/doc-stubs.zip - unzip to ``doc`` folder.
+* Doc stubs zip: https://nasdanika-templates.github.io/ecore-doc/doc-stubs.zip - unzip and upload using GitHub Web interface if you are not using a local repository clone.
 
 ## SQL Metadata
 
