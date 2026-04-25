@@ -1,20 +1,29 @@
-<mxfile compressed="false" pages="1" type="device">
-    <diagram id="242bcf4b-36c5-4430-bf69-544cb1ac64c3" name="mypackage">
-        <mxGraphModel arrows="1" connect="1" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageScale="1" shadow="0" tooltips="1">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <object id="2a767283-0b12-498c-ac3d-bb7d9b3ac949" label="MyClass" link="references/eClassifiers/MyClass/index.html">
-                    <mxCell parent="1" vertex="1">
-                        <mxGeometry as="geometry" height="30.0" width="120.0" x="707.9605282824696" y="337.49171995289646"/>
-                    </mxCell>
-                </object>
-                <object id="9fb0ffea-83ce-4e4d-90fe-9193a1e8600e" label="children" link="references/eClassifiers/MyClass/references/eStructuralFeatures/children/index.html">
-                    <mxCell edge="1" parent="1" source="2a767283-0b12-498c-ac3d-bb7d9b3ac949" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="2a767283-0b12-498c-ac3d-bb7d9b3ac949">
-                        <mxGeometry as="geometry" relative="1"/>
-                    </mxCell>
-                </object>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile compressed="false" host="Electron">
+  <diagram id="242bcf4b-36c5-4430-bf69-544cb1ac64c3" name="mypackage">
+    <mxGraphModel dx="3318" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="MyClass" link="references/eClassifiers/MyClass/index.html" id="2a767283-0b12-498c-ac3d-bb7d9b3ac949">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="707.9605282824696" y="337.49171995289646" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="children" link="references/eClassifiers/MyClass/references/eStructuralFeatures/children/index.html" id="9fb0ffea-83ce-4e4d-90fe-9193a1e8600e">
+          <mxCell edge="1" parent="1" source="2a767283-0b12-498c-ac3d-bb7d9b3ac949" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="2a767283-0b12-498c-ac3d-bb7d9b3ac949">
+            <mxGeometry relative="1" x="0.2135" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="850" y="353" />
+                <mxPoint x="850" y="390" />
+                <mxPoint x="768" y="390" />
+              </Array>
+              <mxPoint x="850" y="350" as="sourcePoint" />
+              <mxPoint x="950" y="479" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
