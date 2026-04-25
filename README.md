@@ -12,7 +12,15 @@ You can edit it and include into the site.
 All of this can be done in the browser if you don't want to clone the repository to your local environment. 
 To generate and commit doc stubs you will have to either clone the repository to you local environment or use [GitHub Codespaces](https://github.com/features/codespaces).
 
-## Ecore
+
+## Manual generation
+
+```
+model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
+```
+
+
+## Action generation
 
 ```
 model My.ecore ecore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi

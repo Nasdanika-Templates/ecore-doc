@@ -37,8 +37,10 @@ jobs:
         uses: ts-graphviz/setup-graphviz@v2
       - name: Generate ecore doc
         working-directory: nsd-cli
-        run: |
-          chmod u+x nsd
+        run: |        
+          chmod u+x nsd          
+          pwd
+          ls ..
           ./nsd model ../My.ecore ecore doc --diagram=my.drawio --doc-dir=../doc save ../my.xmi
       - name: Generate Ecore site
         working-directory: nsd-cli
